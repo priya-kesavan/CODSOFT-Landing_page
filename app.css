@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Potta One', system-ui;
+}
+section{
+    min-height: 100vh;
+    background-image:linear-gradient(hsla(278, 8%, 19%, 0.6),rgba(0,0,0,0.60)), url("./pri.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: #eb7620;
+}
+nav ul{
+    float:right;
+    line-height:80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:0px 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width: 50%;
+    margin:auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h{
+   font-size: 20px;
+   color: darkgoldenrod;
+   text-align: right;
+   text-transform: uppercase;
+}
+.article p{
+    text-align: justify;
+    padding-bottom: 1%;
+    color: aqua;
+    font-size: large;
+
+}
+.article .btn{
+    color:#fff ;
+    align-items: center;
+    padding: 11px 24px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: double;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color: hsl(209, 95%, 62%);
+    transition: 0.5s ease;
+}
